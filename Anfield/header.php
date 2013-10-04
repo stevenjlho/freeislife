@@ -69,5 +69,13 @@
 			</div>
 			<!-- page-msg -->
 		<?php }?>
+			<!--[if lt IE 8]>
+				<div class="page-msg alert alert-danger alert-dismissable">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+					您用的是低版本的IE浏览器，不支持本站的部分效果显示，请安装最新版本的<a class="alert-link" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie">IE</a>，
+					或者下载<a class="alert-link" href="http://firefox.com.cn/download/">Firefox</a>,
+					<a class="alert-link" href="https://www.google.com/intl/zh-CN/chrome/browser/">Chrome</a>。
+				</div>
+			<![endif]-->
 	</div>
 	<!--header-->
