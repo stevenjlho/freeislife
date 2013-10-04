@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta property="wb:webmaster" content="4b368033e2e6b354" />
@@ -10,7 +10,8 @@
 <meta name="alexaVerifyID" content="y9t9QBAIMujwzU3Wi60Ouy5uyeA" />
 <meta name="wumiiVerification" content="9b115fe8-8889-4f56-8c70-d605a3e3f170" />
 <meta property="wb:webmaster" content="4b368033e2e6b354" />
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" type="text/css" />
 <link title="RSS 2.0" type="application/rss+xml" href="http://feed.feedsky.com/freeislife" rel="alternate" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" type="image/x-icon"/>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />

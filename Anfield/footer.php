@@ -8,6 +8,7 @@
 <!-- wrap -->
 <script type="text/javascript" src="http://v1.jiathis.com/code/jia.js" charset="utf-8"></script>
 <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/common.js"></script>
 <?php global $user_ID; if (!$user_ID) : ?>
 <script type="text/javascript">
