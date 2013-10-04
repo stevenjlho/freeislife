@@ -47,23 +47,24 @@
 		<!--navigation-->
 
 		<?php if ( is_404() || is_category() || is_day() || is_month() || is_year() || is_search() ) {?>
-			<div class="page-msg">
+			<div class="page-msg alert alert-info alert-dismissable">
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 				<?php /* If this is a 404 page */ if (is_404()) { ?>
 
 				<?php /* If this is a category archive */ } elseif (is_category()) { ?>
-					<p>你正在浏览文章分类<strong><?php single_cat_title(''); ?></strong>. 如果没有找到结果，请返回首页<a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a></p>
+					<p>你正在浏览文章分类<strong><?php single_cat_title(''); ?></strong>. 如果没有找到结果，请返回首页<a class="alert-link" href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a></p>
 
 				<?php /* If this is a yearly archive */ } elseif (is_day()) { ?>
-					<p>你正在浏览<a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> <?php the_time('l, F jS, Y'); ?>存档.</p>
+					<p>你正在浏览<a class="alert-link" href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> <?php the_time('l, F jS, Y'); ?>存档.</p>
 
 				<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-					<p>你正在浏览<a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> <?php the_time('F, Y'); ?>存档.</p>
+					<p>你正在浏览<a class="alert-link" href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> <?php the_time('F, Y'); ?>存档.</p>
 
 				<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-					<p>你正在浏览<a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> <?php the_time('Y'); ?>存档.</p>
+					<p>你正在浏览<a class="alert-link" href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> <?php the_time('Y'); ?>存档.</p>
 
 				<?php /* If this is a monthly archive */ } elseif (is_search()) { ?>
-					<p>你已搜索关键词<strong>'<?php the_search_query(); ?>'</strong>. 如果没有找到结果，请返回首页<a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>.</p>
+					<p>你已搜索关键词<strong>'<?php the_search_query(); ?>'</strong>. 如果没有找到结果，请返回首页<a class="alert-link" href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>.</p>
 				<?php } ?>
 			</div>
 			<!-- page-msg -->
