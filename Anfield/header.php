@@ -7,11 +7,12 @@
 <?php if ( is_single() || is_page() || is_category() || is_tag() ) { wp_title(''); } else { bloginfo('name'); } ?>
 </title>
 <meta name="application-name" content="艾菲路的博客" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="alexaVerifyID" content="y9t9QBAIMujwzU3Wi60Ouy5uyeA" />
 <meta name="wumiiVerification" content="9b115fe8-8889-4f56-8c70-d605a3e3f170" />
 <meta property="wb:webmaster" content="4b368033e2e6b354" />
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 <link title="RSS 2.0" type="application/rss+xml" href="http://feed.feedsky.com/freeislife" rel="alternate" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" type="image/x-icon"/>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -19,20 +20,28 @@
 </head>
 
 <body>
-<div id="warp">
+<div class="container">
 	<div id="header">
-		<div id="header_title" class="cls">
-			<a class="fl" href="<?php bloginfo('url'); ?>" title="艾菲路的博客">艾菲路的博客</a>
+		<div id="header_title" class="clearfix">
+			<a class="text-center" href="<?php bloginfo('url'); ?>" title="艾菲路的博客">艾菲路的博客</a>
+		</div>
+		<div class="search-bar">
 			<?php get_search_form(); ?>
 		</div>
-		<div id="navigation" class="cls">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'menu'=>'nav', 'container_class' => 'menu', 'container' =>'', 'exclude' => '378' ) ); ?>
+		<div id="navigation" class="clearfix">
+			<?php wp_nav_menu( array(
+				'theme_location' => 'primary-menu',
+				'menu'=>'nav',
+				'container_class' => 'menu',
+				'container' =>'',
+				'menu_class' => 'nav nav-pills',
+				'exclude' => '378'
+			) ); ?>
 
-
-			<div class="header_data fr">
+			<!-- <div class="header_data fr">
 				<a href="http://www.feedsky.com/msub_wr.html?burl=freeislife" target="_blank" title="邮件订阅" class="fl" id="mail">邮件订阅 </a>
 				 <a href="http://feed.feedsky.com/freeislife" target="_blank" title="feed订阅"  class="fl" id="feedsky"> feed订阅 </a>
-			</div>
+			</div> -->
 			<!--feedsky-->
 		</div>
 		<!--navigation-->
