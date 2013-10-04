@@ -155,12 +155,6 @@ line-height:37px;
   padding:50px 0;
   text-align:center;
 }
-#main .navigation a:nth-child(1) {
-  float:left;
-}
-#main .navigation a:nth-child(2) {
-  float:right;
-}
 #main #ckepop {
   padding-top:10px;
 }
