@@ -95,10 +95,6 @@ line-height:37px;
 	text-decoration: none;
   color:#878787;
 }
-#main .postpath {
-  padding:0 0 15px 15px;
-  background:url(images/icon.png) no-repeat 0 -185px;
-}
 #main .entry {
   position:relative;
   padding:0 0 20px;

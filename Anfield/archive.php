@@ -37,7 +37,7 @@
 			</div>
 			<?php endwhile; ?>
 
-			<div class="navigation"><?php posts_nav_link(' ', '上一页', '下一页'); ?></div>
+			<div class="navigation clearfix"><?php posts_nav_link(' ', '上一页', '下一页'); ?></div>
 
 		<?php else : ?>
 			<h1 class="post_title errorbox">没有内容！</h1>

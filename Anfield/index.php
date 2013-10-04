@@ -28,7 +28,7 @@
 	</div>
 	<?php endwhile; ?>
 
-		<div class="navigation"><?php posts_nav_link(' ', '上一页', '下一页'); ?></div>
+		<div class="navigation clearfix"><?php posts_nav_link(' ', '上一页', '下一页'); ?></div>
 
 	<?php else : ?>
 		<h1 class="post_title"><a href="#" rel="bookmark">未找到</a></h1>
