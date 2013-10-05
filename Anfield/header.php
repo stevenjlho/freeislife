@@ -20,13 +20,17 @@
 </head>
 
 <body>
+
+<div class="navbar navbar-default" role="navigation">
+	<div class="search-bar">
+		<?php get_search_form(); ?>
+	</div>
+</div>
+
 <div class="container">
 	<div id="header">
 		<div id="header_title" class="clearfix">
 			<a class="text-center" href="<?php bloginfo('url'); ?>" title="艾菲路的博客">艾菲路的博客</a>
-		</div>
-		<div class="search-bar">
-			<?php get_search_form(); ?>
 		</div>
 		<div id="navigation" class="clearfix">
 			<?php wp_nav_menu( array(

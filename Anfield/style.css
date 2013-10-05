@@ -90,6 +90,7 @@ line-height:37px;
 }
 #main .post_title a {
   color: #444;
+  text-shadow: 1px 1px 1px #eee;
 }
 #main .post_title a:hover {
 	text-decoration: none;
