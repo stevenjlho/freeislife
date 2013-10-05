@@ -28,10 +28,8 @@
 		</div>
 		<?php endwhile; ?>
 
-		<ul class="pager">
-			<li class="previous"><?php previous_posts_link('&larr; 上一页'); ?></li>
-			<li class="next"><?php next_posts_link('下一页 &rarr;'); ?></li>
-		</ul>
+		<!-- 翻页导航 -->
+		<?php get_template_part( 'pager' ); ?>
 
 	<?php else : ?>
 		<h1 class="post_title"><a href="#" rel="bookmark">未找到</a></h1>
