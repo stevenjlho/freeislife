@@ -161,7 +161,9 @@ line-height:37px;
 }
 /*foot*/
 #footer {
-  margin-top:40px;
+  padding:20px 0;
+	border-top: 1px solid #cecece;
+	margin-top: 40px;
   text-align:center;
 }
 #footer span {

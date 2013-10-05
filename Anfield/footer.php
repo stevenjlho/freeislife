@@ -1,7 +1,6 @@
 
   <div id="footer">
-  	<span>copyright @2011 <a href="http://www.freeislife.com/" title="艾菲路的博客"><strong>艾菲路的博客</strong></a></span>
-  	<span>Power By <a href="http://wordpress.org/" title="wordpress">WordPress</a></span>
+  	<p>copyright @<?php echo date( 'Y', current_time( 'timestamp', 1 )); ?> <a href="http://www.freeislife.com/" title="艾菲路的博客"><strong>艾菲路的博客</strong></a> Power By <a href="http://wordpress.org/" title="wordpress">WordPress</a></p>
   <?php wp_footer(); ?>
   </div>
 </div>
