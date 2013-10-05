@@ -32,22 +32,24 @@
 		<div id="header_title" class="clearfix">
 			<a class="text-center" href="<?php bloginfo('url'); ?>" title="艾菲路的博客">艾菲路的博客</a>
 		</div>
-		<div id="navigation" class="clearfix">
-			<?php wp_nav_menu( array(
-				'theme_location' => 'primary-menu',
-				'menu'=>'nav',
-				'container_class' => 'menu',
-				'container' =>'',
-				'menu_class' => 'nav nav-pills',
-				'exclude' => '378'
-			) ); ?>
-
-			<!-- <div class="header_data fr">
-				<a href="http://www.feedsky.com/msub_wr.html?burl=freeislife" target="_blank" title="邮件订阅" class="fl" id="mail">邮件订阅 </a>
-				 <a href="http://feed.feedsky.com/freeislife" target="_blank" title="feed订阅"  class="fl" id="feedsky"> feed订阅 </a>
-			</div> -->
-			<!--feedsky-->
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+				<?php wp_nav_menu( array(
+					'theme_location' => 'primary-menu',
+					'menu'=>'nav',
+					'container_class' => 'menu',
+					'container' =>'',
+					'menu_class' => 'nav nav-pills nav-justified',
+					'exclude' => '378'
+				) ); ?>
+			</div>
 		</div>
+
+		<!-- <div class="header_data fr">
+			<a href="http://www.feedsky.com/msub_wr.html?burl=freeislife" target="_blank" title="邮件订阅" class="fl" id="mail">邮件订阅 </a>
+			 <a href="http://feed.feedsky.com/freeislife" target="_blank" title="feed订阅"  class="fl" id="feedsky"> feed订阅 </a>
+		</div> -->
+		<!--feedsky-->
 		<!--navigation-->
 
 		<?php if ( is_404() || is_category() || is_day() || is_month() || is_year() || is_search() ) {?>
