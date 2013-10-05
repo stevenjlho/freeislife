@@ -38,7 +38,7 @@
 			<?php endwhile; ?>
 
 			<!-- 翻页导航 -->
-			<?php get_template_part( 'pager' );
+			<?php get_template_part( 'pager' ); ?>
 
 		<?php else : ?>
 			<h1 class="post_title errorbox">没有内容！</h1>
