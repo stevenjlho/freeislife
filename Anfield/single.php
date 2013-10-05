@@ -2,15 +2,17 @@
 	<div id="main">
 		<?php if (have_posts()) : the_post(); update_post_caches($posts); ?>
 		<div class="post">
-			<div class="postpath">
-	  			<a title="首页" href="<?php echo get_settings('home'); ?>/" rel="nofollow">首页</a>
-	  			&gt; <?php the_category(', '); ?>
-	   			&gt; <?php the_title(); ?>
-			</div>
+			<ol class="breadcrumb">
+	  			<li><a title="首页" href="<?php echo get_settings('home'); ?>/" rel="nofollow">首页</a></li>
+	  			<li><?php the_category(', '); ?></li>
+	   			<li><?php the_title(); ?></li>
+			</ol>
 
-			<h1 class="post_title">
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-			</h1>
+			<div class="page-header">
+				<h1 class="post_title">
+					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+				</h1>
+			</div>
 
 			<!-- s:entry-->
 			<!-- s:entry-->

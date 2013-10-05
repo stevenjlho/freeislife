@@ -3,9 +3,11 @@
         <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
             <div class="post" id="post-<?php the_ID(); ?>">
-                <h1 class="post_title">
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-                </h1>
+                <div class="page-header">
+                    <h1>
+                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+                    </h1>
+                </div>
 
                 <!-- s:entry-->
                 <div class="entry">
@@ -27,7 +29,8 @@
             </div>
             <?php endwhile; ?>
 
-            <div class="navigation"><?php posts_nav_link(' ', '上一页', '下一页'); ?></div>
+            <!-- 翻页导航 -->
+            <?php get_template_part( 'pager' ); ?>
 
         <?php else : ?>
            <h1 class="post_title errorbox">找不到内容！</h1>
