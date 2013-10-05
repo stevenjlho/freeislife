@@ -8,9 +8,11 @@
 	   			<li><?php the_title(); ?></li>
 			</ol>
 
-			<h1 class="post_title">
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-			</h1>
+			<div class="page-header">
+				<h1 class="post_title">
+					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+				</h1>
+			</div>
 
 			<!-- s:entry-->
 			<!-- s:entry-->

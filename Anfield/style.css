@@ -54,19 +54,6 @@ a {
 #main .post {
   padding:0 0 20px;
 }
-#main .post_title {
-  padding:0 0 5px;
-  border-bottom:1px solid #cecece;
-	font-size:22px;
-}
-#main .post_title a {
-  color: #444;
-  text-shadow: 1px 1px 1px #eee;
-}
-#main .post_title a:hover {
-	text-decoration: none;
-  color:#878787;
-}
 #main .entry {
   position:relative;
   padding:0 0 20px;

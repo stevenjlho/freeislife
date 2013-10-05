@@ -33,7 +33,7 @@
 			<a class="text-center" href="<?php bloginfo('url'); ?>" title="艾菲路的博客">艾菲路的博客</a>
 		</div>
 		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+			<div class="navbar col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
 				<?php wp_nav_menu( array(
 					'theme_location' => 'primary-menu',
 					'menu'=>'nav',
