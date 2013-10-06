@@ -1,12 +1,17 @@
 @charset utf-8;
+/*global*/
 .fl {
   float: left;
 }
 .fr {
   float: right;
 }
-a {
+a, a:hover {
   text-decoration:none;
+}
+.glyphicon{
+	margin-right: 5px;
+	color: #b5b5b5;
 }
 /*header*/
 #header {
@@ -62,6 +67,7 @@ a {
 #main .entry .post_data {
   padding:10px 0 0;
 }
+<<<<<<< HEAD
 #main .entry p {
   padding:10px 0;
   text-indent:2em;
@@ -81,14 +87,28 @@ a {
 #main .tag {
   background:url(images/icon.png) no-repeat 0 -214px;
 }
+=======
+.entry .post_data .btn-group {
+	margin-right: 15px;
+}
+
+#main .entry p {
+  text-indent:2em;
+}
+
+
+>>>>>>> feature-icon
 #main .comment {
   position:absolute;
   top:10px;
   right:0;
 }
+<<<<<<< HEAD
 #main .show_comment {
   background:url(images/icon.png) no-repeat 0 -107px;
 }
+=======
+>>>>>>> feature-icon
 #main .add_comment {
   background:url(images/icon.png) no-repeat 0 -71px;
 }
