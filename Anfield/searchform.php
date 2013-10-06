@@ -2,5 +2,5 @@
 	<div class="form-group">
 		<input type="text" class="form-control" name="s" id="s" placeholder="Search" />
 	</div>
-	<button type="submit" id="searchsubmit" class="btn btn-default">Search</button>
+	<button type="submit" id="searchsubmit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 </form>

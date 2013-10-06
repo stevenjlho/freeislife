@@ -1,12 +1,18 @@
 @charset utf-8;
+/*global*/
 .fl {
   float: left;
 }
 .fr {
   float: right;
 }
-a {
+
+a, a:hover {
   text-decoration:none;
+}
+.glyphicon{
+	margin-right: 5px;
+	color: #b5b5b5;
 }
 /*header*/
 #header {
@@ -37,7 +43,6 @@ a {
   height:32px;
   background:url(images/icon.png) no-repeat 0 -276px;
   line-height:32px;
-  line-
 }
 #header #mail a:hover,
 #header #feedsky a:hover {
@@ -63,31 +68,19 @@ a {
   padding:10px 0 0;
 }
 #main .entry p {
-  padding:10px 0;
   text-indent:2em;
 }
-#main .entry h4 {
-  font-size:20px;
+.entry .post_data .btn-group {
+	margin-right: 15px;
 }
-#main .entry span {
-  padding:0 15px 0 18px;
-}
-#main .date {
-  background:url(images/icon.png) no-repeat 0 -144px;
-}
-#main .category {
-  background:url(images/icon.png) no-repeat 0 -35px;
-}
-#main .tag {
-  background:url(images/icon.png) no-repeat 0 -214px;
+#main .entry p {
+  padding:10px 0;
+  text-indent:2em;
 }
 #main .comment {
   position:absolute;
   top:10px;
   right:0;
-}
-#main .show_comment {
-  background:url(images/icon.png) no-repeat 0 -107px;
 }
 #main .add_comment {
   background:url(images/icon.png) no-repeat 0 -71px;
@@ -133,7 +126,7 @@ a {
   width:640px;
 }
 /*comment*/
-#main .commentlist li {
+/*#main .commentlist li {
   padding:10px 10px 10px 0;
   border-top:1px solid #cecece;
 }
@@ -188,4 +181,4 @@ a {
 /*page*/
 #main .pageentry p {
   padding:0 0 13px;
-}
+}*/

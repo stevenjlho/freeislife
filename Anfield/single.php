@@ -17,18 +17,24 @@
 			<!-- s:entry-->
 			<!-- s:entry-->
 			<div class="entry">
-				<div class="post_data cls">
-					<span class="date fl"><?php the_time('Y年n月j日') ?></span>
-				</div>
+				<div class="post_data btn-toolbar">
+			        <div class="btn-group">
+						<span class="glyphicon glyphicon-calendar"></span><?php the_time('Y年n月j日') ?>
+			        </div>
+			    </div>
 
 				<p class="post_conternt">
 					<?php the_content(); ?>
 				<p>
 
-				<div class="post_data cls">
-					<span class="category fl"><?php the_category(', ') ?></span>
-					<span class="tag fl"><?php the_tags('标签：', ', ', ''); ?></span>
-				</div>
+				<div class="post_data btn-toolbar">
+						<div class="btn-group">
+							<span class="glyphicon glyphicon-th-list"></span><?php the_category(', ') ?>
+				        </div>
+				        <div class="btn-group">
+							<span class="glyphicon glyphicon-tag"></span><?php the_tags('标签：', ', ', ''); ?>
+				        </div>
+					</div>
 				<!-- JiaThis Button BEGIN -->
 				<div id="ckepop">
 					<a href="http://www.jiathis.com/share/" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享到：</a>
@@ -38,8 +44,6 @@
 					<a class="jiathis_button_tools_4"></a>
 				</div>
 				<!-- JiaThis Button END -->
-
-				<span class="comment add_comment"><a href="#respond">添加评论</a></span>
 			</div>
 			<!-- e:entry-->
 			<!-- e:entry-->
@@ -49,7 +53,9 @@
 	</div>
 
 	<?php else : ?>
-		<h1 class="post_title errorbox">没有内容！</h1>
+		<div class="page-header">
+		    <h1 class="errorbox">没有内容！</h1>
+		</div>
 	<?php endif; ?>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
