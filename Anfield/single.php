@@ -44,8 +44,6 @@
 					<a class="jiathis_button_tools_4"></a>
 				</div>
 				<!-- JiaThis Button END -->
-
-				<span class="comment add_comment"><a href="#respond">添加评论</a></span>
 			</div>
 			<!-- e:entry-->
 			<!-- e:entry-->

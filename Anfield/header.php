@@ -22,9 +22,7 @@
 <body>
 
 <div class="navbar navbar-default" role="navigation">
-	<div class="search-bar">
-		<?php get_search_form(); ?>
-	</div>
+	<?php get_search_form(); ?>
 </div>
 
 <div class="container">
