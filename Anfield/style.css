@@ -67,48 +67,21 @@ a, a:hover {
 #main .entry .post_data {
   padding:10px 0 0;
 }
-<<<<<<< HEAD
+
 #main .entry p {
-  padding:10px 0;
   text-indent:2em;
 }
-#main .entry h4 {
-  font-size:20px;
-}
-#main .entry span {
-  padding:0 15px 0 18px;
-}
-#main .date {
-  background:url(images/icon.png) no-repeat 0 -144px;
-}
-#main .category {
-  background:url(images/icon.png) no-repeat 0 -35px;
-}
-#main .tag {
-  background:url(images/icon.png) no-repeat 0 -214px;
-}
-=======
 .entry .post_data .btn-group {
 	margin-right: 15px;
 }
-
 #main .entry p {
   text-indent:2em;
 }
-
-
->>>>>>> feature-icon
 #main .comment {
   position:absolute;
   top:10px;
   right:0;
 }
-<<<<<<< HEAD
-#main .show_comment {
-  background:url(images/icon.png) no-repeat 0 -107px;
-}
-=======
->>>>>>> feature-icon
 #main .add_comment {
   background:url(images/icon.png) no-repeat 0 -71px;
 }
@@ -153,7 +126,7 @@ a, a:hover {
   width:640px;
 }
 /*comment*/
-#main .commentlist li {
+/*#main .commentlist li {
   padding:10px 10px 10px 0;
   border-top:1px solid #cecece;
 }
@@ -208,4 +181,4 @@ a, a:hover {
 /*page*/
 #main .pageentry p {
   padding:0 0 13px;
-}
+}*/
