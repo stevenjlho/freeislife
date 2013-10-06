@@ -47,7 +47,7 @@
 
 		<?php else : ?>
 			<div class="page-header">
-			    <h1>没有内容</h1>
+			    <h1 class="errorbox">没有内容！</h1>
 			</div>
 		<?php endif; ?>
 	</div>

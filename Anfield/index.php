@@ -21,7 +21,6 @@
 				<div class="post_content">
 					<?php the_content(); ?>
 				</div>
-
 				<div class="post_data btn-toolbar">
 					<div class="btn-group">
 						<span class="glyphicon glyphicon-th-list"></span><?php the_category(', ') ?>
@@ -46,9 +45,8 @@
 
 	<?php else : ?>
 		<div class="page-header">
-		    <h1>没有内容</h1>
+		    <h1 class="errorbox">没有内容！</h1>
 		</div>
-
 	<?php endif; ?>
 </div>
 <?php get_sidebar(); ?>
