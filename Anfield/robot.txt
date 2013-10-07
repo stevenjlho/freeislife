@@ -1,9 +1,0 @@
-er-agent: *
-Disallow: /cgi-bin
-Disallow: /wp-
-Disallow: /feed/
-Disallow: /comments/feed
-Disallow: /trackback
-Disallow: /comments
-Sitemap: http://www.freeislife.com/sitemap.xml
-Sitemap: http://www.freeislife.com/sitemap.xml.gz

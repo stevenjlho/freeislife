@@ -15,30 +15,31 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .fr {
   float: right;
 }
-a,
-a:hover {
-  text-decoration: none;
+a, a:hover {
+  text-decoration:none;
 }
-.glyphicon {
+.glyphicon{
   margin-right: 5px;
   color: #b5b5b5;
 }
 /*navbar*/
-.searchform .glyphicon-search {
-  margin-right: 0;
+.searchform {
+  .glyphicon-search {
+    margin-right: 0;
+  }
 }
 /*header*/
 #header {
   margin: 15px 0;
-}
-#header #header_title a {
-  display: block;
-  margin-bottom: 10px;
-  text-decoration: none;
-  font-size: 30px;
-}
-#header .page-msg {
-  padding-top: 10px;
+  #header_title a {
+    display:block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .page-msg {
+    padding-top: 10px;
+  }
 }
 .nav-pills > li.current_page_item > a,
 .nav-pills > li.current_page_item > a:hover,
@@ -65,54 +66,61 @@ a:hover {
   text-decoration:none;
 }*/
 /*main*/
-#main .post {
-  padding: 0 0 20px;
-}
-#main .entry {
-  position: relative;
-  padding: 0 0 20px;
-  line-height: 24px;
-}
-#main .entry .post_data {
-  padding: 10px 0 0;
-}
-#main .entry .post_data .btn-group {
-  margin-right: 15px;
-}
-#main .entry p {
-  text-indent: 2em;
-}
-#main .entry .post_content {
-  padding: 25px 0 0;
-}
-#main .comment {
-  position: absolute;
-  top: 10px;
-  right: 0;
-}
-#main .errorbox {
-  padding: 50px 0;
-  text-align: center;
-}
-#main #ckepop {
-  padding-top: 10px;
+#main {
+  .post {
+    padding:0 0 20px;
+  }
+
+  .entry {
+    position:relative;
+    padding:0 0 20px;
+    line-height:24px;
+    .post_data {
+      padding:10px 0 0;
+      .btn-group {
+        margin-right: 15px;
+      }
+    }
+    p {
+      text-indent:2em;
+    }
+    .post_content {
+      padding:25px 0 0;
+    }
+  }
+
+  .comment {
+    position:absolute;
+    top:10px;
+    right:0;
+  }
+
+  .errorbox {
+    padding:50px 0;
+    text-align:center;
+  }
+
+  #ckepop {
+    padding-top:10px;
+  }
 }
 /*foot*/
 #footer {
   margin-top: 40px;
-  padding: 20px 0;
+  padding:20px 0;
   border-top: 1px solid #cecece;
-  text-align: center;
-}
-#footer span {
-  padding-right: 15px;
+  text-align:center;
+
+  span {
+    padding-right:15px;
+  }
 }
 /*404*/
 #main .erroepage {
-  margin: 40px auto 0;
-  width: 640px;
+  margin:40px auto 0;
+  width:640px;
 }
 /*page*/
 #main .pageentry p {
-  padding: 0 0 13px;
+  padding:0 0 13px;
 }
