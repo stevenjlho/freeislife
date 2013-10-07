@@ -1,4 +1,13 @@
-@charset utf-8;
+/*
+Theme Name: Freeislife
+Theme URI: http://www.freeislife.com;
+Author: Steven
+Author URI: http://www.freeislife.com;
+Description:  Base on bootstrap.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
 /*global*/
 .fl {
   float: left;
@@ -6,35 +15,42 @@
 .fr {
   float: right;
 }
-a, a:hover {
-  text-decoration:none;
+a,
+a:hover {
+  text-decoration: none;
 }
-.glyphicon{
-	margin-right: 5px;
-	color: #b5b5b5;
+.glyphicon {
+  margin-right: 5px;
+  color: #b5b5b5;
+}
+/*navbar*/
+.searchform .glyphicon-search {
+  margin-right: 0;
 }
 /*header*/
 #header {
   margin: 15px 0;
 }
-#header_title a {
-  display:block;
+#header #header_title a {
+  display: block;
   margin-bottom: 10px;
-  font-size: 30px;
   text-decoration: none;
+  font-size: 30px;
+}
+#header .page-msg {
+  padding-top: 10px;
 }
 .nav-pills > li.current_page_item > a,
 .nav-pills > li.current_page_item > a:hover,
 .nav-pills > li.current_page_item > a:focus {
-	background-color: #eee;
+  background-color: #eee;
   color: #fff;
 }
-#header #feedsky {
+/*#header #feedsky {
   padding-left:42px;
   height:32px;
   background:url(images/icon.png) no-repeat 0 -348px;
   line-height:32px;
-  line-
 }
 #header #mail {
   margin-right:15px;
@@ -47,84 +63,56 @@ a, a:hover {
 #header #feedsky a:hover {
   color:#5e5e5e;
   text-decoration:none;
-}
-#header .page-msg {
-  padding-top: 10px;
-}
+}*/
 /*main*/
-#main h2 {
-  padding-bottom:15px;
-}
 #main .post {
-  padding:0 0 20px;
+  padding: 0 0 20px;
 }
 #main .entry {
-  position:relative;
-  padding:0 0 20px;
-  line-height:24px;
+  position: relative;
+  padding: 0 0 20px;
+  line-height: 24px;
 }
 #main .entry .post_data {
-  padding:10px 0 0;
+  padding: 10px 0 0;
+}
+#main .entry .post_data .btn-group {
+  margin-right: 15px;
 }
 #main .entry p {
-  text-indent:2em;
+  text-indent: 2em;
 }
-.entry .post_data .btn-group {
-	margin-right: 15px;
-}
-#main .entry p {
-  padding:10px 0;
-  text-indent:2em;
+#main .entry .post_content {
+  padding: 25px 0 0;
 }
 #main .comment {
-  position:absolute;
-  top:10px;
-  right:0;
-}
-#main .add_comment {
-  background:url(images/icon.png) no-repeat 0 -71px;
-}
-#main .post_content {
-  padding:25px 0 0;
-}
-#main .more {
-  display:block;
-  padding:10px 0 0;
-}
-#main .page_navi {
-  text-align:center;
-}
-#main .page_navi a {
-  padding:0 3px;
-  border:1px solid #06c;
-}
-#main .page_navi .prev,
-#main .page_navi .next {
-  border:none;
+  position: absolute;
+  top: 10px;
+  right: 0;
 }
 #main .errorbox {
-  padding:50px 0;
-  text-align:center;
+  padding: 50px 0;
+  text-align: center;
 }
 #main #ckepop {
-  padding-top:10px;
+  padding-top: 10px;
 }
 /*foot*/
 #footer {
-  padding:20px 0;
-	border-top: 1px solid #cecece;
-	margin-top: 40px;
-  text-align:center;
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #cecece;
+  text-align: center;
 }
 #footer span {
-  padding-right:15px;
+  padding-right: 15px;
 }
 /*404*/
 #main .erroepage {
-  margin:40px auto 0;
-  width:640px;
+  margin: 40px auto 0;
+  width: 640px;
 }
 /*page*/
 #main .pageentry p {
-  padding:0 0 13px;
+  padding: 0 0 13px;
 }

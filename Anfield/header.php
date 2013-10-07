@@ -12,7 +12,7 @@
 <meta name="wumiiVerification" content="9b115fe8-8889-4f56-8c70-d605a3e3f170" />
 <meta property="wb:webmaster" content="4b368033e2e6b354" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.less" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 <link title="RSS 2.0" type="application/rss+xml" href="http://feed.feedsky.com/freeislife" rel="alternate" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" type="image/x-icon"/>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
